@@ -1,0 +1,25 @@
+{
+  "name": "sang-video",
+  "version": "1.0.0",
+  "description": "当代年轻人为什么都这么丧 - 文艺短片",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts SangVideo out/sang.mp4",
+    "still": "remotion still src/index.ts SangVideo",
+    "fonts": "node scripts/fetch_fonts.cjs",
+    "bgm": "node scripts/synth_bgm.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@remotion/cli": "^4.0.508",
+    "@remotion/google-fonts": "^4.0.508",
+    "@remotion/transitions": "^4.0.508",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "remotion": "^4.0.508"
+  }
+}
